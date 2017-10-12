@@ -1,0 +1,54 @@
+baseURL = "http://kiikoblak.com/"
+languageCode = "en-us"
+title = "KIIKO BLAK"
+theme = ""
+# disqusShortname = "username" # delete this to disable disqus comments
+googleAnalytics = ""
+
+[params]
+    author = "Kiiko Blak"
+    description = "This is the official Kiiko Blak Website"
+    githubUsername = "#"
+    accent = "red"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "https://soundcloud.com/kiikoblak"
+    name = "soundcloud"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://open.spotify.com/artist/12fzO7xcyUgAdJyua4yXte"
+    name = "spotify"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://itunes.apple.com/us/artist/kiiko-blak/id1118294780"
+    name = "apple"
+    weight = 3
+
+[[menu.icon]]
+    url = "mailto:kiikoblak@gmail.com"
+    name = "envelope-o"
+    weight = 4
