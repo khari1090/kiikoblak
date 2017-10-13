@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
+@import url('https://fonts.googleapis.com/css?family=Hanalei');
+@import url('https://fonts.googleapis.com/css?family=Dhurjati');
+
+
 html, body {
     height: 100%;
 }
@@ -14,6 +19,10 @@ main {
     padding: 25px;
     flex: 1 0 auto;
     max-width: 750px;
+}
+
+.barcode{
+  font-family: 'Dhurjati'
 }
 
 /*footer*/
@@ -36,6 +45,31 @@ main {
 .intro > h2 {
     color: #757575;
     font-size: 3vmin;
+}
+
+.kb-card{
+  transition: box-shadow .4s ease;
+  width: 100%;
+  margin: 2%;
+  height: 100%;
+  background: #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(7, 51, 84, 0.05);
+}
+
+.kb-card:hover, .kb-card:active{
+  box-shadow: 0 0 30px rgba(7, 51, 84, 0.17);
+  -webkit-box-shadow: 0 0 30px rgba(7, 51, 84, 0.17);
+  -moz-box-shadow: 0 0 30px rgba(7, 51, 84, 0.17);
+}
+
+.kb-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*apply accent colour to links*/
@@ -77,6 +111,23 @@ a:hover {
 .navbar-icon {
     font-size: 125%;
     display: inline-block !important;
+}
+
+.navbar-toggle{
+  border-style: none !important;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+     background-color: none !important;
+}
+
+.navbar{
+  background-color: #ffffe2 !important;
+  border-bottom: none !important;
+}
+
+.icon-bar{
+  background-color: blue !important;
 }
 
 /*coloured borders at top and bottom of the page*/

@@ -9,9 +9,9 @@ googleAnalytics = ""
     author = "Kiiko Blak"
     description = "This is the official Kiiko Blak Website"
     githubUsername = "#"
-    accent = "red"
+    accent = "blue"
     showBorder = true
-    backgroundColor = "white"
+    backgroundColor = "black"
     font = "Raleway" # should match the name on Google Fonts!
 
 [[menu.main]]
@@ -28,6 +28,8 @@ googleAnalytics = ""
     url = "/project/"
     name = "Projects"
     weight = 3
+
+
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
