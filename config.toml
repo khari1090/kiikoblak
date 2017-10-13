@@ -9,14 +9,14 @@ googleAnalytics = ""
     author = "Kiiko Blak"
     description = "This is the official Kiiko Blak Website"
     githubUsername = "#"
-    accent = "blue"
+    accent = "none"
     showBorder = true
-    backgroundColor = "black"
+    backgroundColor = "white"
     font = "Raleway" # should match the name on Google Fonts!
 
 [[menu.main]]
     url = "/"
-    name = "KIIKO BLAK"
+    name = ""
     weight = 1
 
 [[menu.main]]
