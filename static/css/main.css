@@ -21,14 +21,14 @@ main {
     max-width: 750px;
 }
 
-.barcode{
-  font-family: 'Dhurjati'
-}
-
 /*footer*/
 
 .copyright {
     margin: 15px 0;
+}
+
+.kb-well{
+  padding: 8%;
 }
 
 /*home page*/
@@ -122,7 +122,7 @@ a:hover {
 }
 
 .navbar{
-  background-color: #ffffe2 !important;
+  background-color: black !important;
   border-bottom: none !important;
 }
 
